@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$("#search").on("click", function(event) {
 		event.preventDefault();
-		var str = "http://en.wikipedia.org/w/api.php?" + 
+		var str = "https://en.wikipedia.org/w/api.php?" + 
 		          "action=query&generator=search&gsrsearch=" + 
 		          $("#text-search").val() + 
 		          "&format=json&prop=info&" + 
